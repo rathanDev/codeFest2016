@@ -1,0 +1,736 @@
+/*
+=======================================
+    Sections
+        - App Creation Field Styles
+        - App Preview Styles
+========================================
+*/
+
+
+/*
+App Creation Field Styles
+*/
+
+.header-title {
+    font-family: 'Raleway';
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.header-title .number {
+    font-family: 'Open Sans';
+}
+
+.app-create-header .banner {
+    margin-top: 60px;
+    padding-bottom: 10px;
+    width: auto;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.app-create-header .restaurant .banner {
+    background-image: url('../../img/app-create/industry/restaurant/restaurant-banner-app-create.jpg');
+}
+
+.app-create-header .shopping .banner {
+    background-image: url('../../img/app-create/industry/shopping/shopping-banner.jpg');
+}
+
+.industry-features-area .feature-section {
+    padding: 10px 0px 0px 0px;
+}
+
+button:focus,
+input[type="text"] {
+    outline: none;
+}
+
+.page-number {
+    border-top: 3px solid rgb(231, 76, 60);
+    color: #fff;
+    margin-top: 20px;
+}
+
+.page-number button {
+    border-radius: 50px;
+    background-color: #fff;
+    border: 3px solid rgba(231, 76, 60, 0.9);
+    color: #777;
+    height: 40px;
+    width: 40px;
+    font-weight: 700;
+    transition: all 0.5s ease 0s;
+}
+
+.page-number button:hover {
+    background-color: rgb(231, 76, 60);
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.page-number .active {
+    background-color: rgb(231, 76, 60);
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+
+.page-number-bar {
+    margin-top: -22px;
+}
+
+.page-number-bar div {
+    float: left;
+    text-align: center;
+}
+
+.page-number-bar.four-groups div {
+    width: 25%;
+}
+
+.page-number-bar.three-groups div {
+    width: 33.33%;
+}
+
+.page-number-bar div:first-child {
+    text-align: left !important;
+}
+
+.page-number-bar div:last-child {
+    text-align: right !important;
+}
+
+.page-number-bar h5 {
+    font-family: 'Open Sans';
+    font-weight: 500;
+}
+
+.app-creation-fields {
+    font-family: 'Open Sans';
+    padding: 30px 0px;
+    font-weight: 300;
+    opacity: 1;
+    transition: all 0.5s ease 0s;
+}
+
+.app-creation-fields .form-submit-process-message {
+    padding: 20px 0px;
+}
+
+.app-creation-fields .error-message {
+    color: #e75242;
+    font-size: 12px;
+}
+
+.app-creation-fields .row {
+    padding-bottom: 10px;
+}
+
+.app-creation-fields .form-group label {
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #3e4445;
+    font-weight: 300 !important;
+}
+
+.app-creation-fields .form-group.in-line label {
+    padding-top: 6px;
+}
+
+.app-creation-fields .basic-info textarea,
+.app-creation-fields .nevada-integration textarea {
+    height: 108px;
+}
+
+.app-creation-fields .branding-info .theme-color-picker span {
+    border-radius: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.app-creation-fields .form-group input[type="text"],
+.app-creation-fields .form-group textarea {
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.app-creation-fields .form-group select {
+    border-radius: 0px;
+    padding: 0px 5px;
+}
+
+.app-creation-fields .button-group {
+    padding: 20px 0px;
+}
+
+.app-creation-fields .form-button {
+    border-radius: 20px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid #2ECC71;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 12px;
+    background: #2ECC71;
+    color: #fff;
+    transition: all 0.2s ease 0s;
+}
+
+.app-creation-fields .form-button:hover {
+    border: 2px solid #249f58;
+    background: #249f58;
+    transition: all 0.2s ease 0s;
+}
+
+.app-creation-fields .form-button.secondary {
+    background: #fff;
+    color: #2ECC71;
+    transition: all 0.2s ease 0s;
+}
+
+.app-creation-fields .form-button.secondary:hover {
+    background: #e9e9e9;
+    color: #2ECC71;
+    transition: all 0.2s ease 0s;
+}
+
+.app-creation-fields .field-seperator {
+    margin-top: -5px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.app-creation-fields .toggle-with-checkbox {
+    position: relative;
+}
+
+.app-creation-fields .toggle-wrapper {
+    width: 55px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.app-creation-fields .toggle-wrapper.toggle-disabled {
+    cursor: not-allowed;
+}
+
+.app-creation-fields .toggle-wrapper.off {
+    background: #CCCED6;
+    border: 1px solid #AAACAF;
+    transition: all 0.2s ease 0s;
+}
+
+.app-creation-fields .toggle-wrapper.on {
+    border-radius: 20px;
+    background: #2ecc71;
+    border: 1px solid #26aa5e;
+    transition: all 0.2s ease 0s;
+}
+
+.app-creation-fields .toggle-wrapper.on .toggle-button {
+    margin-left: 10px;
+    transition: all 0.2s ease 0s;
+}
+
+.app-creation-fields .toggle-wrapper.off .toggle-button {
+    margin-left: 2px;
+    transition: all 0.2s ease 0s;
+}
+
+.app-creation-fields .toggle-wrapper .toggle-button .toggle-button-text {
+    display: inline-table;
+    vertical-align: middle;
+    font-size: 10px;
+    margin-top: -10px;
+    font-weight: bold;
+    text-shadow: none;
+    transition: all 0.2s ease 0s;
+}
+
+.app-creation-fields .toggle-wrapper.on .toggle-button .toggle-button-text {
+    color: #fff;
+}
+
+.app-creation-fields .toggle-wrapper.off .toggle-button .toggle-button-text {
+    color: #828282;
+    float: right;
+    margin-right: 6px;
+    margin-top: 5px;
+}
+
+.app-creation-fields .toggle-wrapper.on .toggle-button .toggle-button-text .off,
+.app-creation-fields .toggle-wrapper.off .toggle-button .toggle-button-text .on {
+    display: none;
+}
+
+.app-creation-fields .toggle-wrapper.on .toggle-button .toggle-button-text .on,
+.app-creation-fields .toggle-wrapper.off .toggle-button .toggle-button-text .off {
+    display: block;
+}
+
+.app-creation-fields .toggle-wrapper
+.app-creation-fields .toggle-checkbox {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.app-creation-fields .toggle-checkbox {
+    display: none;
+}
+
+.app-creation-fields .toggle-wrapper.toggle-disabled {
+    cursor: not-allowed;
+}
+
+.app-creation-fields .toggle-button {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    font-size: 12px;
+    transition: all 0.2s ease 0s;
+}
+
+/*
+App Preview Styles
+*/
+
+/*Sandbox Area Styles STARTS HERE*/
+
+.app-preview-toggle {
+    margin-top: -175px;
+    text-align: center;
+}
+
+.app-preview-toggle span {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    font-size: 11px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    width: 100px;
+    cursor: pointer !important;
+}
+
+.app-preview-toggle span.active,
+.app-preview-toggle span:hover {
+    background: rgba(0, 0, 0, 0.50);
+}
+
+.app-preview-toggle span i {
+    padding-right: 5px;
+}
+
+.app-preview-toggle span:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all 0.2s ease 0s;
+}
+
+.app-preview-toggle span:first-child:hover {
+    transition: all 0.2s ease 0s;
+}
+
+.app-preview-toggle span:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all 0.2s ease 0s;
+}
+
+.app-preview-toggle span:last-child:hover {
+    transition: all 0.2s ease 0s;
+}
+
+.app-preview-screen-slider {
+    margin-top: 375px;
+    text-align: center;
+}
+
+.app-preview-screen-slider div {
+    display: inline-block;
+}
+
+.app-preview-screen-slider .screen-slider-wrapper {
+    /*border: 1px solid grey;*/
+}
+
+.app-preview-screen-slider .screen-slider-wrapper .screen-name {
+    width: 180px;
+}
+
+.app-preview-screen-slider .chevron {
+    cursor: pointer;
+}
+
+.app-preview-screen-slider .chevron:hover {
+    color: grey;
+cursor: pointer;
+}
+
+.app-preview-screen-slider .hide.chevron {
+    display: inline-block !important;
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
+.app-preview-screen-slider span {
+    font-size: 12px;
+    padding: 5px 20px;
+    width: 160px;
+}
+
+.sandbox {
+    margin-top: -140px;
+    margin-left: 65px;
+}
+
+.sandbox .phone-sim{
+    margin: 5px;
+    height: 500px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sandbox img {
+    height: inherit;
+}
+
+.sandbox .phone-sim-container{
+    position: relative;
+}
+
+.sandbox .starter-screen{
+    width: inherit;
+    height: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sandbox .starter-screen .app-brand-logo {
+    height: 80px;
+    width: auto;
+    margin-top: 50px;
+}
+
+.sandbox .starter-screen .app-welcome-text {
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.sandbox .starter-screen .app-button-set {
+    margin-top: 50px;
+}
+
+.sandbox .starter-screen .app-main-button {
+    font-family: 'Open Sans';
+    font-size: 10px;
+    font-weight: 600;
+    padding: 5px 18px;
+    color: #fff;
+    margin: 10px 35px;
+    display: block;
+    transition: all 0.2s ease 0s;
+}
+
+.restaurant-preview .sandbox .starter-screen .app-main-button.guest-button {
+    border:2px solid #F0B211; 
+    color: #F0B211
+}
+
+.restaurant-preview .sandbox .starter-screen .app-main-button.register-button,
+.restaurant-preview .sandbox .app-nav-bar,
+.restaurant-preview .sandbox .product-stats .price {
+    background: #F0B211;
+}
+
+.restaurant-preview .sandbox .product-stats .fa {
+    color: #F0B211;
+}
+
+.shopping-preview .sandbox .starter-screen .app-main-button.guest-button {
+    border:2px solid #16a085;
+    color: #16a085
+}
+
+.shopping-preview .sandbox .starter-screen .app-main-button.register-button,
+.shopping-preview .sandbox .app-nav-bar,
+.shopping-preview .sandbox .product-stats .price {
+    background: #16a085;
+}
+
+.shopping-preview .sandbox .product-stats .fa {
+    color: #16a085;
+}
+
+.sandbox .starter-screen .app-main-button:hover {
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease 0s;
+}
+
+.sandbox .starter-screen .app-text-link {
+    font-family: 'Open Sans';
+    font-size: 10px;
+    color: #fff;
+}
+
+.sandbox .starter-screen .app-powered-by {
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-bottom: 10px;
+}
+
+.sandbox .starter-screen .app-powered-by img{
+    height: 20px;
+    width: auto;
+}
+
+.sandbox .starter-screen .app-powered-by span{
+    font-family: 'Open Sans';
+    font-size: 8px;
+    margin-right: 3px;
+    color: #fff;
+}
+
+.sandbox .starter-screen .screen-content {
+    background: rgba(0, 0, 0, 0.60);
+    width: inherit;
+    height: inherit;
+    text-align: center;
+}
+
+.sandbox .inner-screen .app-nav-bar {
+    padding: 10px;
+    color: #fff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    position: relative;
+}
+
+.sandbox .inner-screen {
+    width: inherit;
+    height: inherit;
+    background: #EBEBEB;
+}
+
+.sandbox .scroll-view {
+    /*overflow: scroll;*/
+    overflow: hidden;
+}
+
+.sandbox .scroll-view::-webkit-scrollbar {
+    display: none;
+}
+
+.sandbox .inner-screen .nav-hamburger {
+    padding-right: 10px;
+}
+
+.sandbox .product-grid-screen .product-grid {
+    padding: 5px;
+}
+
+.sandbox .product-grid-screen .product-grid {
+    padding: 6px 6px;
+    margin: 0px;
+
+}
+
+.sandbox .product-grid-screen .product-item {
+    background: #fff;
+    display: inline-block;
+}
+
+.sandbox .product-grid-screen .product-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.sandbox .product-grid-screen .product-item .empty-space {
+    height: 16px;
+}
+
+.sandbox .product-grid-screen .product-item-text .product-name {
+    font-family: 'Open Sans';
+    font-size: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sandbox .product-grid-screen .product-item-text .product-stats {
+    font-family: 'Open Sans';
+    font-size: 9px;
+}
+
+.sandbox .product-grid-screen .product-item-text .product-stats .price{
+    float: right;
+    padding-left: 7px;
+    padding-right: 5px;
+    margin-right: -5px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.sandbox .product-grid-screen .product-item-text {
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background: transparent; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.71)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.71)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.71)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.71)); /* Standard syntax */
+}
+
+.android-preview.sandbox .scroll-view {
+    height: 367px;
+}
+
+.ios-preview.sandbox .scroll-view {
+    height: 340px;
+}
+
+.android-preview.sandbox .category-screen .category-item {
+    background: #fff;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.android-preview.sandbox .category-screen .category-item-image {
+    width: 212px;
+    height: 106px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.ios-preview.sandbox .category-screen .category-item-image {
+    width: 214px;
+    height: 114px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+.android-preview.sandbox .category-screen .category-item-text {
+    color: #fff;
+    padding-top: 81px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background: transparent; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.71)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.71)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.71)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.71)); /* Standard syntax */
+}
+
+.ios-preview.sandbox .category-screen .category-item-text {
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 44px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background: transparent; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.71)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.71)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.71)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.71)); /* Standard syntax */
+}
+
+.android-preview.sandbox .category-screen .category-name,
+.ios-preview.sandbox .category-screen .category-name,
+.android-preview.sandbox .category-screen .category-count,
+.ios-preview.sandbox .category-screen .category-count {
+    font-family: 'Open Sans';
+    font-size: 12px;
+}
+
+.android-preview.sandbox .category-screen .category-count {
+    line-height: 22px;
+}
+
+.ios-preview.sandbox .category-screen .category-count {
+    padding-right: 10px;
+    line-height: 12px;
+}
+
+.ios-preview.sandbox .category-screen .count-item-caption,
+.android-preview.sandbox .category-screen .count-item-caption {
+    font-size: 8px;
+}
+
+.ios-preview.sandbox .category-screen .count-item-caption{
+    display: block;
+}
+
+
+.android-preview.sandbox .phone-sim-content {
+    position: absolute;
+    top: 45px;
+    left: 14px;
+    width: 231px;
+    height: 407px;
+    background: #fff;
+
+}
+
+.ios-preview.sandbox .phone-sim-content {
+    position: absolute;
+    top: 64px;
+    left: 24px;
+    width: 214px;
+    height: 380px;
+    background: #fff;
+}
+
+.ios-preview.sandbox .starter-screen .app-main-button {
+    border-radius: 20px;
+}
+
+.android-preview.sandbox .product-grid-screen .product-item {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+    padding: 3px;
+    width: 103px;
+    height: 103px;
+    margin: 2px 2px 6px 2px;
+}
+
+.android-preview.sandbox .product-grid-screen .product-image {
+    width: 97px;
+    height: 97px;
+}
+
+.ios-preview.sandbox .product-grid-screen .product-item {
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 0px;
+    width: 94px;
+    height: 94px;
+    margin: 3px 2px 12px 3px;
+}
+.ios-preview.sandbox .product-grid-screen .product-image {
+    width: 94px;
+    height: 94px;
+}
+
+/*Sandbox Area Styles STARTS HERE*//*
+
+

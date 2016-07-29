@@ -1,0 +1,33 @@
+.page-title .app-status {
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 11px;
+    padding: 3px 10px;
+    font-family: 'Lato', sans-serif;
+    vertical-align: middle;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.page-title .app-status.pending-approve {
+    background-color: #7f8c8d;
+}
+
+.page-title .app-status.active-production {
+    background-color: #2ecc71;
+}
+
+.section-card.app-features .fa-check-circle{
+    color: #2ecc71;
+}
+
+.section-card.app-features .fa-times-circle{
+    color: #e74c3c;
+}
+
+.section-card .section-item {
+    padding-bottom: 10px;
+}
+.section-card  .section-item:last-child {
+    padding-bottom: 0px;
+}

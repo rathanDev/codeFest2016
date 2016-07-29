@@ -1,0 +1,236 @@
+.app-card-info .tooltip-inner {
+    width: 120px;
+}
+
+.app-card {
+    background: #ffffff;
+    border: 1px solid #CFCFCF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    transition: all 0.2s ease 0s;
+}
+.app-card:hover {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease 0s;
+}
+
+.app-card-header {
+    height: 70px;
+    width: auto;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.industry-restaurant .app-card-header {
+    background-image: url('../../img/industry/restaurant-banner-sm2.jpg');
+}
+
+.industry-shopping .app-card-header {
+    background-image: url('../../img/industry/shopping-banner-sm2.jpg');
+}
+
+.app-card-content {
+    padding: 10px;
+}
+
+.app-card-content .row {
+    padding-bottom: 7px;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+}
+
+.app-card-content .content-title{
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.app-card-content .content-value{
+    color: #828282;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.app-card-content .app-status {
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 2px 8px 3px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.app-card-content .app-status.pending-approve {
+    background-color: #7f8c8d;
+}
+
+.app-card-content .app-status.active-production {
+    background-color: #2ecc71;
+}
+
+.app-card-bottom-actions {
+    height: 40px;
+    background-color: #ECECEC;
+}
+
+.app-card-hr {
+    border-top: 1px solid rgb(218, 218, 218);
+    margin: 10px 0px;
+}
+
+.app-title {
+    color: #ffffff;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    margin: 10px 0px 2px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.industry-title {
+    color: #ffffff;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+
+.app-types {
+    padding-top: 5px;
+}
+
+.app-types .fa-stack {
+    font-size: 25px;
+}
+
+.app-types h5 {
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+.app-types .type-sms {
+    color: #2980b9;
+}
+
+.app-types .type-sms:hover {
+    color: #1c5980;
+}
+
+.app-types .type-ussd {
+    color: #c0392b;
+}
+
+.app-types .type-ussd:hover {
+    color: #952c21;
+}
+
+.app-types .type-android {
+    color: #A4CA39;
+}
+
+.app-types .type-android:hover {
+    color: #819f2d;
+}
+
+.app-types .disabled {
+    color: #95a5a6;
+}
+
+.app-data-caption {
+    text-align: center;
+    color: #8f8f8f;
+}
+
+.app-data-caption h5 {
+    margin: 0px;
+    color: #333;
+    padding-bottom: 3px;
+}
+
+.app-data-value h3 {
+    text-align: center;
+    margin: 0px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: #8f8f8f;
+}
+
+.app-card-info {
+    padding: 4px 0px 0px 0px !important;
+    font-size: 16px;
+}
+
+.app-card-info a {
+    color: rgba(0, 0, 0, 0.36);
+}
+
+.app-card-info a:hover {
+    color: rgba(0, 0, 0, 0.58);
+}
+
+.app-options {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 10px;
+}
+
+.app-options a {
+    color: #7C7C7C;
+}
+
+.app-share-opts h5 {
+    text-align: center;
+    padding: 10px 5px 0px 5px;
+    margin: 0px;
+}
+
+.app-share-opts p {
+    text-align: center;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.app-share-opts a {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.36);
+    text-decoration: none;
+}
+
+.app-share-opts a:hover {
+    color: rgba(0, 0, 0, 0.58);
+}
+
+.app-share-opts .type-facebook {
+    color: #395C9E;
+}
+
+.app-share-opts .type-facebook:hover {
+    color: #263d69;
+}
+
+.app-share-opts .type-twitter {
+    color: #2CB0F0;
+}
+
+.app-share-opts .type-twitter:hover {
+    color: #1a678c;
+}
+
+.app-share-opts .type-googleplus {
+    color: #CD2E2B;
+}
+
+.app-share-opts .type-googleplus:hover {
+    color: #8e201e;
+}

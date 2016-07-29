@@ -1,0 +1,333 @@
+/*
+    Apptizer Main Styles
+*/
+
+a {
+    color: #2ecc71;
+}
+
+a:hover {
+    color: #27ae60;
+}
+
+.modal-header.success {
+    background: #27ae60;
+}
+
+.modal-loader .fa {
+    color: #2ecc71;
+}
+
+.modal-footer .message .fa {
+    color: #2ecc71;
+}
+
+.form-control:focus {
+    border-color: #27ae60;
+}
+
+.apt-hint .label-success {
+    background-color: #2ECC71;
+}
+
+.btn-4 {
+    border: 3px solid #2ECC71;
+    color: #2ECC71;
+}
+
+.btn-4:active {
+    border-color: #2ECC71;
+    color: #FFFFFF;
+}
+
+.btn-4:hover {
+    background: #2ECC71;
+    color: #ffffff;
+}
+
+.btn-4:active:before {
+    color: #2ECC71;
+}
+
+.btn-filled-md.primary,
+.btn-filled-sm.primary {
+    background: #2ECC71;
+    color: #ffffff;
+}
+
+.btn-filled-sm.primary:hover,
+.btn-filled-md.primary:hover {
+    background: #26a65c;
+}
+
+.btn-filled-input-attached.primary {
+    background: #2ECC71;
+    color: #ffffff;
+}
+
+.btn-filled-input-attached.primary:hover {
+    background: #26a65c;
+}
+.page-title .fa {
+    color: #2ECC71;
+}
+
+.page-action a:hover > .fa,
+.page-action a:hover > h5 {
+    color: #2ecc71;
+}
+
+.chosen-container-active .chosen-choices {
+    border: 1px solid #2ecc71 !important;
+}
+
+.chosen-container .chosen-results li.highlighted {
+    background-color: #2ecc71 !important;;
+    color: #fff !important;;
+}
+
+/*
+    Apptizer Home Styles
+*/
+#banner .btn-4 {
+    border: none;
+    background: #e74c3c;
+    color: #ffffff;
+}
+
+#banner .btn-4:active {
+    border-color: #c0392b;
+    color: #ffffff;
+}
+
+#banner .btn-4:hover {
+    background: #c0392b;
+}
+
+#banner .btn-4:active:before {
+    color: #c0392b;
+}
+
+.industry-features-area .industry-features .btn-4 {
+    background: rgba(231, 76, 60, 0.9);
+}
+
+.industry-features-area .industry-features .btn-4:active,
+.industry-features-area .industry-features .btn-4:hover {
+    background: #e74c3c;
+}
+
+/*
+    Apptizer App Creation Success Page 
+*/
+.app-success-circle {
+    color: #2ECC71;
+}
+
+/*
+    Apptizer Purchase Styles
+*/
+.table-po .po-action:hover {
+    color: #2ecc71;
+}
+
+.status-selector .btn {
+    color: #2ECC71;
+    border: 2px solid #2ECC71;
+}
+
+.status-selector .btn:first-child {
+    border-left: 2px solid #2ECC71;
+}
+
+.status-selector .pending .btn.status-pending,
+/*.status-selector .new .btn.status-new,*/
+.status-selector .accepted .btn.status-accepted,
+.status-selector .ready .btn.status-ready,
+.status-selector .void .btn.status-void,
+.status-selector .completed .btn.status-completed,
+.status-selector .rejected .btn.status-rejected {
+    background:#2ECC71;
+}
+
+/*
+    Apptizer My Apps Styles
+*/
+.app-card-content {
+    height: 65px;
+}
+
+.app-options a:hover,a:focus {
+    color: #27ae60;
+}
+
+/*
+    Apptizer G-Menu Styles
+*/
+.gn-menu-main,
+.gn-menu-main ul {
+    background: #24A85C;
+    color: #ffffff;
+}
+
+.gn-menu-main {
+    background: #2ECC71;
+    color: #FFFFFF;
+}
+
+.no-touch .gn-menu-main a:hover,
+.no-touch .gn-menu li.gn-search-item:hover,
+.no-touch .gn-menu li.gn-search-item:hover a {
+    background: #1d8549;
+    color: #ffffff;
+}
+
+.gn-menu-main a:hover,
+.gn-menu li.gn-search-item:hover,
+.gn-menu li.gn-search-item:hover a {
+    background: #1d8549;
+    color: #ffffff;
+}
+
+.gn-menu-main > li {
+    border-right: 1px solid #24A85C;
+}
+
+.gn-menu-main li.gn-menu-right {
+    border-left: 1px solid #24A85C;
+}
+
+.gn-menu-wrapper {
+    border-top: 1px solid #1d8549;
+    background: #24A85C;
+}
+
+.gn-menu li:not(:first-child),
+.gn-menu li li {
+    box-shadow: inset 0 1px #1d8549
+}
+
+.gn-menu {
+    border-bottom: 1px solid #1d8549;
+}
+
+.gn-menu-wrapper.gn-open-all {
+    border-right: 1px solid #1d8549;
+}
+
+.gn-menu-wrapper.gn-open-all {
+    width: 250px;
+}
+
+.gn-menu-wrapper .copyright {
+    margin: 10px 58px;
+}
+
+.fa-notification-bell {
+    background: #229553;
+}
+
+.user-profile-pic {
+    border: 2px solid #24A85C;
+}
+
+/*
+    Apptizer Question Styles
+*/
+
+.sub-question {
+    color: #238d49 !important;
+}
+
+.question-checkbox input[type="checkbox"],
+.question-checkbox input[type="radio"],
+.question-checkbox label::before {
+    border: 3px solid #2ECC71 !important;
+}
+
+.question-checkbox label::before {
+    border: 4px solid #2ECC71;
+}
+
+.question-checkbox input[type="checkbox"]:checked + label,
+.question-checkbox input[type="radio"]:checked + label {
+    color: #2ECC71;
+}
+
+.question-checkbox svg path {
+    stroke: #2ECC71;
+}
+
+.dotstyle li a {
+    background-color: #2ECC71;
+}
+
+.dotstyle-smalldotstroke li a {
+    background-color: #2ECC71;
+}
+
+.dotstyle-smalldotstroke li a:hover,
+.dotstyle-smalldotstroke li a:focus,
+.dotstyle-smalldotstroke li.current a {
+    background-color: #2ECC71;
+}
+
+.dotstyle-smalldotstroke li.current {
+    box-shadow: 0 0 0 2px #2ECC71;
+}
+
+.btn-add-content {
+    background-color: #2ECC71;
+    background: #2ECC71 !important;
+    background-repeat: repeat-x;
+    border-color: #2ECC71;
+    color: #ffffff;
+}
+
+.btn-add-content:hover, .btn-add-content:focus {
+    background-color: #1f884b;
+    background: #1f884b !important;
+    background-color: #1f884b;
+    color: #ffffff;
+}
+
+.btn-add-content:active, .btn-success.active {
+    background-color: #1f884b;
+    background: #1f884b !important;
+    background-color: #1f884b;
+    border-color: #1f884b;
+    color: #ffffff;
+}
+
+.app-content-accordion a{
+    color: #2ecc71 !important;;
+}
+
+.app-content-accordion .fa-plus-circle{
+    color: #2ecc71 !important;
+}
+
+.app-content-accordion a:hover,
+.app-content-accordion a:focus {
+    color: #27ae60 !important;
+}
+
+.form-submit-process-message .fa {
+    color: #2ecc71;
+}
+
+/*
+Apptizer Product Management Styles
+*/
+
+.modal.tabbed-modal .modal-header{
+    background-color: #27ae60;
+}
+
+.modal.tabbed-modal .modal-header .nav-tabs > li > a:hover,
+.modal.tabbed-modal .modal-header .nav-tabs > li > a:focus,
+.modal.tabbed-modal .modal-header .nav-tabs > li.active > a,
+.modal.tabbed-modal .modal-header .nav-tabs > li.active > a:hover,
+.modal.tabbed-modal .modal-header .nav-tabs > li.active > a:focus {
+    background-color: #1d8549;
+}

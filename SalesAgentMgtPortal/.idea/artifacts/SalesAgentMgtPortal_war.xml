@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="SalesAgentMgtPortal:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SalesAgentMgtPortal.war">
+      <element id="artifact" artifact-name="SalesAgentMgtPortal:war exploded" />
+    </root>
+  </artifact>
+</component>
