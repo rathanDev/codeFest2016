@@ -1,0 +1,5 @@
+
+.gitignore
+target/SalesAgentMgtPortal/META-INF/
+target/generated-sources/
+target/generated-test-sources/
