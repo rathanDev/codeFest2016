@@ -13,11 +13,11 @@ public class SalesAgentService {
 
         SalesAgent salesAgent1 = new SalesAgent();
         salesAgent1.setName("agent1");
-        salesAgent1.setArea("maradana");
+        salesAgent1.setArea("Kurunegala");
 
         SalesAgent salesAgent2 = new SalesAgent();
         salesAgent2.setName("agent2");
-        salesAgent2.setArea("nugegoda");
+        salesAgent2.setArea("Kandy");
 
         List<SalesAgent> salesAgents = new ArrayList<SalesAgent>();
         salesAgents.add(salesAgent1);

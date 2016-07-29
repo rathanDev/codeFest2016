@@ -1,8 +1,7 @@
-/home/janarthan/projects/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/controllers/SalesLeadController.java
-/home/janarthan/projects/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/domains/SalesLead.java
-/home/janarthan/projects/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/services/SalesAgentService.java
-/home/janarthan/projects/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/domains/AjaxResponseBody.java
-/home/janarthan/projects/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/services/SalesLeadsService.java
-/home/janarthan/projects/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/controllers/HomeController.java
-/home/janarthan/projects/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/domains/Views.java
-/home/janarthan/projects/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/domains/SalesAgent.java
+/home/janarthan/projects/codeFest2016/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/services/SalesAgentService.java
+/home/janarthan/projects/codeFest2016/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/services/SalesLeadsService.java
+/home/janarthan/projects/codeFest2016/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/controllers/HomeController.java
+/home/janarthan/projects/codeFest2016/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/controllers/SalesAgentController.java
+/home/janarthan/projects/codeFest2016/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/controllers/SalesLeadController.java
+/home/janarthan/projects/codeFest2016/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/domains/SalesAgent.java
+/home/janarthan/projects/codeFest2016/codeFest2016/SalesAgentMgtPortal/src/main/java/com/springapp/mvc/domains/SalesLead.java

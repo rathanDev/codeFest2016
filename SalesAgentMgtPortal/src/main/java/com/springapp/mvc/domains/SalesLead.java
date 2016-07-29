@@ -4,6 +4,7 @@ public class SalesLead {
 
     private String name;
     private String address;
+    private String status;
     private String confidenceLevel;
     private String recordings;
     private String feedback;
@@ -23,6 +24,14 @@ public class SalesLead {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public String getConfidenceLevel() {

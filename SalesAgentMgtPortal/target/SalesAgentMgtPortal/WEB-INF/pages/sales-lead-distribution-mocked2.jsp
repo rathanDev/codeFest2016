@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>9sldm</title>
+    <title>10sldm</title>
 
     <script src="js/jquery/jquery.min.js"></script>
 
@@ -113,23 +113,35 @@
                                         <tbody>
                                         <tr>
                                             <th class="col-md-4">Shop Name</th>
-                                            <td id="name">Doe</td>
+                                            <td id="name">Terun</td>
                                         </tr>
                                         <tr>
                                             <th class="col-md-4">Shop Address</th>
-                                            <td id="address">Moe</td>
+                                            <td id="address">448, South California Ave, Palo Alto, CA 94301</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="col-md-4">New</th>
+                                            <td id="status-div">3</td>
                                         </tr>
                                         <tr>
                                             <th class="col-md-4">Confidence Level</th>
-                                            <td id="confidence-level">Dooley</td>
+                                            <td id="confidence-level">3</td>
                                         </tr>
                                         <tr>
                                             <th class="col-md-4">Feedback</th>
-                                            <td id="feedback-div">Dirty</td>
+                                            <td id="feedback-div">Need subcategories.</td>
+                                            <td class="col-md-4 text-right">
+                                                <a href="#" rel="tooltip"
+                                                   class="btn btn-4 btn-filled-md primary narrow" data-toggle="modal"
+                                                   data-target="#view-agent-modal">
+                                                    <i class="fa fa-play" aria-hidden="true"></i> &nbsp; Play Recording
+                                                </a>
+                                            </td>
+                                            <%--<td class="text-right">&nbsp; &nbsp;<i class="fa fa-play" aria-hidden="true">&nbsp; &nbsp; &nbsp;</i></td>--%>
                                         </tr>
                                         <tr>
                                             <th class="col-md-4">Sales Agent</th>
-                                            <td class="col-md-4" id="sales-agent">Dooley</td>
+                                            <td class="col-md-4" id="sales-agent">Peters Smith</td>
                                             <td class="col-md-4 text-right">
                                                 <a href="#" rel="tooltip"
                                                    class="btn btn-4 btn-filled-md primary narrow" data-toggle="modal"
@@ -251,7 +263,7 @@
         var chicagoLattitudeNLongitude = {lat: 41.85, lng: -87.65};
 
         var myOptions = {
-            zoom: 8,
+            zoom: 17,
             center: chicagoLattitudeNLongitude,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
@@ -309,11 +321,13 @@
 
                                 $('#agent_datails').text(marker.getTitle());
                                 console.log(marker.getTitle())
+                                console.log(marker.getPosition())
 
                                 var salesLeadName = marker.getTitle()
                                 var salesLead = salesLeads[salesLeadName];
                                 $('#name').text(salesLeadName)
                                 $('#address').text(salesLead['address'])
+                                $('#status-div').text(salesLead['status'])
                                 $('#confidence-level').text(salesLead['confidenceLevel'])
                                 $('#feedback-div').text(salesLead['feedback'])
                                 $('#sales-agent').text( salesLead['visitingAgent']['name'] )
