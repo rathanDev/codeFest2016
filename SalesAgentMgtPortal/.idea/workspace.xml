@@ -2,41 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98df12a3-7a42-4a4b-9dcc-9b07c58039ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/SalesAgentController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/modals/view-agent-modal.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/domains/AjaxResponseBody.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/domains/Views.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/classes/com/springapp/mvc/domains/AjaxResponseBody.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/classes/com/springapp/mvc/domains/Views$Public.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/classes/com/springapp/mvc/domains/Views.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/pages/hello.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/pages/sales-lead-distribution-mocked.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/pages/sales-lead-distribution.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/domains/AjaxResponseBody.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/domains/Views$Public.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/domains/Views.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/classes/com/springapp/mvc/controllers/HomeController.class" afterPath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/classes/com/springapp/mvc/controllers/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controllers/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controllers/HomeController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SalesAgentMgtPortal.war" afterPath="$PROJECT_DIR$/target/SalesAgentMgtPortal.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/classes/com/springapp/mvc/services/SalesAgentService.class" afterPath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/classes/com/springapp/mvc/services/SalesAgentService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/services/SalesAgentService.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/services/SalesAgentService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/classes/com/springapp/mvc/services/SalesLeadsService.class" afterPath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/classes/com/springapp/mvc/services/SalesLeadsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/services/SalesLeadsService.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/services/SalesLeadsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/services/SalesAgentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/services/SalesAgentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/domains/SalesLead.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/domains/SalesLead.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/services/SalesLeadsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/services/SalesLeadsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/pages/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sales-lead-distribution-mocked2.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sales-lead-distribution-mocked2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/pages/sales-lead-distribution-mocked2.jsp" afterPath="$PROJECT_DIR$/target/SalesAgentMgtPortal/WEB-INF/pages/sales-lead-distribution-mocked2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SalesAgentMgtPortal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -132,8 +100,8 @@
       <file leaf-file-name="sales-lead-distribution-mocked2.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sales-lead-distribution-mocked2.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33179724">
-              <caret line="329" column="71" selection-start-line="329" selection-start-column="71" selection-end-line="329" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.46285716">
+              <caret line="123" column="67" selection-start-line="123" selection-start-column="67" selection-end-line="123" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -1043,7 +1011,7 @@
       <workItem from="1469712969472" duration="30365000" />
       <workItem from="1469755881516" duration="14437000" />
       <workItem from="1469773276293" duration="1823000" />
-      <workItem from="1469775663171" duration="5193000" />
+      <workItem from="1469775663171" duration="5349000" />
     </task>
     <task id="LOCAL-00001" summary="Wip: Added git ignore file.">
       <created>1469773528270</created>
@@ -1055,7 +1023,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74079000" />
+    <option name="totallyTimeSpent" value="74235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="24" width="1333" height="744" extended-state="6" />
@@ -1071,7 +1039,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5169082" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20933977" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34460548" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09324009" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1510,8 +1478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sales-lead-distribution-mocked2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33179724">
-          <caret line="329" column="71" selection-start-line="329" selection-start-column="71" selection-end-line="329" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.46285716">
+          <caret line="123" column="67" selection-start-line="123" selection-start-column="67" selection-end-line="123" selection-end-column="67" />
           <folding />
         </state>
       </provider>

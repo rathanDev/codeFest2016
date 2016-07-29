@@ -120,8 +120,8 @@
                                             <td id="address">448, South California Ave, Palo Alto, CA 94301</td>
                                         </tr>
                                         <tr>
-                                            <th class="col-md-4">New</th>
-                                            <td id="status-div">3</td>
+                                            <th class="col-md-4">Status</th>
+                                            <td id="status-div">New</td>
                                         </tr>
                                         <tr>
                                             <th class="col-md-4">Confidence Level</th>
